@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: 
+Nama: Mhd.Alif Rofiansyah Siregar
 
-NIM : 
+NIM : 607062530001
 
 ## Instruksi
 
