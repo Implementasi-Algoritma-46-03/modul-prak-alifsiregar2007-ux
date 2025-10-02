@@ -5,16 +5,13 @@ public class TP02 {
         // Kerjakan soalnya di sini
         Scanner inputScanner = new Scanner(System.in);
         
-        System.out.println("Masukan Nama Pembeli");
         String NamaPembeli = inputScanner.nextLine();
-        System.out.println("Masukan Harga Per Barang");
         int hargaPerBarang = inputScanner.nextInt();
-        System.out.println("Masukan Jumlah Barang");
         int jumlahBarang = inputScanner.nextInt();
 
         int TotalBelanja = jumlahBarang * hargaPerBarang;
 
-        System.out.println("Hello, "+ NamaPembeli + ". Total Belanja Anda Adalah: " + TotalBelanja + ".");
+        System.out.println("Hi, "+ NamaPembeli + ". Total Belanja Anda Adalah: " + TotalBelanja + "Rupiah");
 
         inputScanner.close();
 
