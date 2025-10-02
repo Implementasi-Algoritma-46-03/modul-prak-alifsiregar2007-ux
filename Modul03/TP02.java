@@ -6,9 +6,9 @@ public class TP02 {
         Scanner inputScanner = new Scanner(System.in);
         
         String NamaPembeli = inputScanner.nextLine();
-        int hargaPerBarang = inputScanner.nextInt();
         int jumlahBarang = inputScanner.nextInt();
-
+        int hargaPerBarang = inputScanner.nextInt();
+       
         int TotalBelanja = jumlahBarang * hargaPerBarang;
 
         System.out.println("Hi, "+ NamaPembeli + ". Total belanja adalah " + TotalBelanja + " rupiah.");
