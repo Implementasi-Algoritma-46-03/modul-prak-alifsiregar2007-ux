@@ -11,7 +11,7 @@ public class TP02 {
        
         int TotalBelanja = jumlahBarang * hargaPerBarang;
 
-        System.out.println("Hi, "+ NamaPembeli + ". Total belanja adalah " + TotalBelanja + " rupiah.");
+        System.out.println("Hi, "+ NamaPembeli + ". Total belanja adalah " + TotalBelanja + " rupiah");
         inputScanner.close();
 
     }
