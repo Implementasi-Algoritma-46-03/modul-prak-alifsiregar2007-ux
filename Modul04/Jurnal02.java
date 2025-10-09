@@ -9,21 +9,21 @@ public class Jurnal02 {
         double pajak = 0;
         if (penghasilan <= 50){
             pajak = penghasilan * 10000000 * 0.05;
-            System.out.println("penghasilankotor = " + penghasilan + " juta rupiah");
-            System.out.println("pajak 5% = Rp. " + (int) pajak);
-            System.out.println("penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));   
+            System.out.println("Penghasilankotor = " + penghasilan + " juta Rupiah");
+            System.out.println("Pajak 5% = Rp. " + (int) pajak);
+            System.out.println("Penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));   
         }
         else if (penghasilan <= 500){
             pajak = penghasilan * 10000000 * 0.15;
-            System.out.println("penghasilankotor = " + penghasilan + " juta rupiah");
-            System.out.println("pajak 5% = Rp. " + (int)pajak);
-            System.out.println("penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));
+            System.out.println("Penghasilankotor = " + penghasilan + " juta Rupiah");
+            System.out.println("Pajak 5% = Rp. " + (int)pajak);
+            System.out.println("Penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));
         }
         else {
             pajak = penghasilan * 10000000 * 0.30;
-            System.out.println("penghasilankotor = " + penghasilan + " juta rupiah");
-            System.out.println("pajak 5% = Rp. " + (int) pajak);
-            System.out.println("penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));
+            System.out.println("Penghasilankotor = " + penghasilan + " juta Rupiah");
+            System.out.println("Pajak 5% = Rp. " + (int) pajak);
+            System.out.println("Penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));
         }
         }
        
