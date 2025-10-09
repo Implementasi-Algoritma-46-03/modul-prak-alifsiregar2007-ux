@@ -22,7 +22,7 @@ public class Jurnal02 {
         else {
             pajak = penghasilan * 10000000 * 0.30;
             System.out.println("Penghasilan kotor = " + penghasilan + " juta Rupiah");
-            System.out.println("Pajak 5% = Rp. " + (int) pajak);
+            System.out.println("Pajak 30% = Rp. " + (int)pajak);
             System.out.println("Penghasilan bersih = Rp. " + (int) (penghasilan * 10000000 - pajak));
         }
         }
