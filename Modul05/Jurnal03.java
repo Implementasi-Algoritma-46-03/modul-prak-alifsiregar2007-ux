@@ -28,7 +28,7 @@ public class Jurnal03 {
                 }
                 break;
             default:
-                System.out.println("Operator tidak valid");
+                System.out.println("Hari tidak valid");
         }
 
         scanner.close();
