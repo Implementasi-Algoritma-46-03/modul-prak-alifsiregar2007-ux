@@ -4,17 +4,17 @@ public class Jurnal03 {
         Scanner input = new Scanner(System.in);
         int angka = input.nextInt();
 
-        int angkaq = 0;
+        int angkaa = 0;
         String hasil = null;
-        for (int i=1; i <= angkaq; i++){
+        for (int i=1; i <= angkaa; i++){
             if (angka % i == 0)
-            angkaq++;
+            angkaa++;
         }
-        if (angkaq == 2){
-            hasil = "YA";
-        } else {
-            hasil = "BUKAN";
-        }
+        if (angkaa == 2)
+            hasil ="YA";
+        else 
+            hasil ="BUKAN";
+    
         System.out.println(hasil);
     }
 } 
