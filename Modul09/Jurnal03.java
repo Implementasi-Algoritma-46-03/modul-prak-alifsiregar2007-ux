@@ -15,5 +15,6 @@ public class Jurnal03 {
         } else {
             hasil = "BUKAN";
         }
+        System.out.println(hasil);
     }
 } 
