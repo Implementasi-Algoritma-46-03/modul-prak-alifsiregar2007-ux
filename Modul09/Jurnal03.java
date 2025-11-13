@@ -6,7 +6,7 @@ public class Jurnal03 {
 
         int angkaa = 0;
         String hasil = null;
-        for (int i=1; i <= angkaa; i++){
+        for (int i=1; i <= angkaa; i++) {
             if (angka % i == 0)
             angkaa++;
         }
