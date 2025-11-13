@@ -18,4 +18,4 @@ public class Jurnal03 {
         }
         System.out.println(iniPrima ? "YA" : "BUKAN");
     }
-}
+} 

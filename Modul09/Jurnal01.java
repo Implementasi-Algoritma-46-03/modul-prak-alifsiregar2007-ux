@@ -9,4 +9,4 @@ public class Jurnal01 {
             System.out.print(i*i + " ");
         }
     }
-}
+} 

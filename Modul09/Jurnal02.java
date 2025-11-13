@@ -14,4 +14,4 @@ public class Jurnal02 {
 
         System.out.println(jumlah);
     }
-}
+} 
