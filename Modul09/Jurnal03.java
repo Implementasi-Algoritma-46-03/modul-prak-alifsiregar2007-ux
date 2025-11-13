@@ -1,21 +1,22 @@
 import java.util.*;
 
+import javax.print.DocFlavor.STRING;
+
 public class Jurnal03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int N = input.nextInt();
-        boolean iniPrima = true;
+        int angka = input.nextInt();
 
-        if (N <= 1) {
-            iniPrima = false;
-        } else {
-            for (int i = 2; i <= Math.sqrt(N); i++) {
-                if (N % i == 0) {
-                    iniPrima = false;
-                    break;
-                }
-            }
+        int angkaq = 0;
+        String hasil = null;
+        for (int i=1; i <= angkaq; i++){
+            if (angka % i == 0)
+            angkaq++;
         }
-        System.out.println(iniPrima ? "YA" : "BUKAN");
+        if (angkaq == 2){
+            hasil = "YA";
+        } else {
+            hasil = "BUKAN";
+        }
     }
 } 
