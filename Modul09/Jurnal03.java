@@ -11,9 +11,9 @@ public class Jurnal03 {
             angkaa++;
         }
         if (angkaa == 2)
-            hasil ="YA";
+            hasil = "YA";
         else 
-            hasil ="BUKAN";
+            hasil = "BUKAN";
     
         System.out.println(hasil);
     }
