@@ -1,7 +1,4 @@
 import java.util.*;
-
-import javax.print.DocFlavor.STRING;
-
 public class Jurnal03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
