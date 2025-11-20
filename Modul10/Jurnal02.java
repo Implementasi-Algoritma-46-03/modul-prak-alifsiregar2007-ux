@@ -10,8 +10,7 @@ public class Jurnal02 {
 
         for (int i = 1; i <= bilanganBulat; i++) {
             for (int j = 1; j <= bilanganBulat; j++) {
-                int hasilPerkalian = j * i;
-                System.out.printf("%-6d", hasilPerkalian);
+                System.out.print(i * j + " ");
             }
 
             System.out.println();
