@@ -4,9 +4,13 @@ public class Jurnal01 {
         // Kerjakan soalnya di sini 
         for (int i = 1; i <= 6; i++) {
             if (i % 2 == 0) {
-                System.out.print(" " + i);
+                System.out.print(" ");
             }
             for (int j = 1; j <= 5; j++) {
+                if (i % 2 == 0 && j == 5) {
+                    System.out.print(" ");
+                }
+                else
                 System.out.print(i + " ");
             }
 
