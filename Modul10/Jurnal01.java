@@ -13,4 +13,4 @@ public class Jurnal01 {
             System.out.println();
         }
     }
-}
+} 

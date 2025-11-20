@@ -19,4 +19,4 @@ public class Jurnal02 {
 
         input.close();
     }
-}
+} 
