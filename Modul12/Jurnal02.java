@@ -56,7 +56,3 @@ public class Jurnal02 {
         return false;
     }
 }
-
-
-Jurnal03
-import java.util.Scanner;
