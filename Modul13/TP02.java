@@ -54,4 +54,4 @@ public class TP02 {
 
         scan.close();
     }
-}
+} 

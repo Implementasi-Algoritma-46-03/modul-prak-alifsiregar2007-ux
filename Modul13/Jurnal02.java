@@ -27,5 +27,7 @@ public class Jurnal02 {
         for (int i = 0; i < b.length; i++) {
             System.out.printf("%s ", b[i]);
         }
+
+        scan.close();
     }
 }

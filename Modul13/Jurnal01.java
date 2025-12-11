@@ -30,4 +30,4 @@ public class Jurnal01 {
 
         scan.close();
     }
-}
+} 

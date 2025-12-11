@@ -26,6 +26,6 @@ public class Jurnal03 {
             System.out.print("Data tidak ditemukan");
         }
 
-        scan.close();
+        scan.close(); 
     }
 }
