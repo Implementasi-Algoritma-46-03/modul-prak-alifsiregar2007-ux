@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-Jurnal01
->>>>>>> 6beec2e2b3934671a3c4b2c8bed70749b0eac642
 import java.util.ArrayList;
 import java.util.Scanner;
 
