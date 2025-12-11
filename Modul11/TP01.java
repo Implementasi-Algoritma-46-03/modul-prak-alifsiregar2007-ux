@@ -17,5 +17,9 @@ public class TP01 {
             System.out.println("Bulan " + (i+1) + ": " + peserta[i]);
         }
     }
+<<<<<<< HEAD
 }
  
+=======
+}
+>>>>>>> 6beec2e2b3934671a3c4b2c8bed70749b0eac642

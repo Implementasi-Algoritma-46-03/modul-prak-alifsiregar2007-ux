@@ -1,11 +1,20 @@
 import java.util.Scanner;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6beec2e2b3934671a3c4b2c8bed70749b0eac642
 public class Jurnal03 {
+public static void main(final String[] args) {
+        Scanner s = new Scanner(System.in);
+        int N = s.nextInt();
 
+<<<<<<< HEAD
     public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();
 
+=======
+>>>>>>> 6beec2e2b3934671a3c4b2c8bed70749b0eac642
         int mulai = 0;
         int counter = 0;
         int akhir = N;
